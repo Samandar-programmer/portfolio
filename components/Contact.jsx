@@ -67,7 +67,7 @@ const Contact = () => {
           initial={{x: 50, opacity: 0}}
           whileInView={{x: 0, opacity: 1}}
           transition={{duration: 0.6, delay: 1.2}}
-          type="text" placeholder='Enter Your Email' required className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-whiteText' name='email' />
+          type="email" placeholder='Enter Your Email' required className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-whiteText' name='email' />
         </div>
         <motion.textarea
         initial={{y: 100, opacity: 0}}
