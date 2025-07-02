@@ -27,10 +27,6 @@ import menu_black from './menu-black.png';
 import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
-//import web_icon from './web-icon.png';
-//import mobile_icon from './mobile-icon.png';
-//import ui_icon from './ui-icon.png';
-//import graphics_icon from './graphics-icon.png';
 import clean from './clean.png';
 import clean_dark from './clean_dark.png';
 import coding from './coding.png';
@@ -47,7 +43,10 @@ import work1 from './work-1.png';
 import work2 from './work-2.png';
 import work3 from './work-3.png';
 import work4 from './work-4.png';
+import work5 from './work-5.png';
+import work6 from './work-6.png';
 import footer_bg_color from './footer-bg-color.png';
+/* import resume from './resume.pdf'; */
 
 export const assets = {
     user_image,
@@ -79,10 +78,6 @@ export const assets = {
     menu_white,
     close_black,
     close_white,
-    /* web_icon,
-    mobile_icon,
-    ui_icon,
-    graphics_icon, */
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -91,6 +86,8 @@ export const assets = {
     work2,
     work3,
     work4,
+    work5,
+    work6,
     footer_bg_color,
     responsive,
     responsive_dark,
@@ -100,28 +97,39 @@ export const assets = {
     coding_dark,
     speedometer,
     speedometer_dark,
+    
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Ecommerce site',
         bgImage: work1,
+        link: 'https://ruzievsaman-ecommerce-website.netlify.app/',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'EduLearn',
         bgImage: work2,
+        link: 'https://edu-learn-template.netlify.app/',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Weather App',
         bgImage: work3,
+        link: 'https://react-weather-app-uz.netlify.app/',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Travel Website',
         bgImage: work4,
+        link: 'https://travel-site-uz.netlify.app/',
+    },
+    {
+        title: 'Note App',
+        bgImage: work5,
+        link: 'https://ruzievsaman-note-app.netlify.app/',
+    },
+    {
+        title: 'Password Generator',
+        bgImage: work6,
+        link: 'https://ruzievsaman-password-generator.netlify.app/',
     },
 ]
 
