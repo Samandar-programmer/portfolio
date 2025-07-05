@@ -45,6 +45,9 @@ import work3 from './work-3.png';
 import work4 from './work-4.png';
 import work5 from './work-5.png';
 import work6 from './work-6.png';
+import work7 from './work-7.png';
+import work8 from './work-8.png';
+import work9 from './work-9.png';
 import footer_bg_color from './footer-bg-color.png';
 /* import resume from './resume.pdf'; */
 
@@ -88,6 +91,9 @@ export const assets = {
     work4,
     work5,
     work6,
+    work7,
+    work8,
+    work9,
     footer_bg_color,
     responsive,
     responsive_dark,
@@ -130,6 +136,21 @@ export const workData = [
         title: 'Password Generator',
         bgImage: work6,
         link: 'https://ruzievsaman-password-generator.netlify.app/',
+    },
+    {
+        title: 'To-Do List',
+        bgImage: work7,
+        link: 'https://ruzievsaman-to-do-list.netlify.app/',
+    },
+    {
+        title: 'Role Playing Game',
+        bgImage: work8,
+        link: 'https://ruzievsaman-role-playing-game.netlify.app/',
+    },
+    {
+        title: 'Account Number Test',
+        bgImage: work9,
+        link: 'https://hisob-raqami-test.netlify.app/',
     },
 ]
 
